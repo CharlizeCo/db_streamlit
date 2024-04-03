@@ -18,7 +18,8 @@ def connect_to_db():
     mydb = mysql.connector.connect(
       host="localhost",
       user="root",
-      password="$148Dix@CWoI",
+      port = 3306  
+      password= pw,
       database="cardb"
     )
 
