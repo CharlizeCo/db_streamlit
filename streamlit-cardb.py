@@ -4,7 +4,6 @@
 # Required module: mysql-connector-python, streamlit, pandas
 
 import streamlit as st
-import mysql
 import mysql.connector
 import pandas as pd
 import os
